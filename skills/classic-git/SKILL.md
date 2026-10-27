@@ -45,4 +45,5 @@ bugfix/<version>
 ## Commit Permissions
 
 - Do not create commits by default. Commit only when the current turn explicitly allows it, and that permission applies to that turn alone.
+- Amending the latest commit does not need permission. Never amend a commit that has been pushed.
 - Do not add the agent itself as `Co-authored-by` in the commit message.
