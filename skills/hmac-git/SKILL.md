@@ -1,5 +1,5 @@
 ---
-name: classic-git
+name: hmac-git
 description: Git commit message format, branch naming, and when commits are allowed. Use when writing commit messages, creating branches, or making commits.
 ---
 

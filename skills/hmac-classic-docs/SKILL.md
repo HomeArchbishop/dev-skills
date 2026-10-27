@@ -1,5 +1,5 @@
 ---
-name: classic-docs
+name: hmac-classic-docs
 description: Writing style for documentation and code comments in Chinese. Covers terms, sentences, headings, explanation, and what to leave out. Use when writing or revising docs, doc sections, or code comments.
 disable-model-invocation: true
 ---
