@@ -28,7 +28,7 @@ Write the way an experienced Chinese engineer explains the system to a colleague
 
 - Write complete, unambiguous statements. In instructions, an omitted subject is fine when the actor is clear. Do not omit the action, object, or condition needed to understand the sentence.
   - 「把请求转发给下一个服务」, not 「往下推」.
-  - 「用请求里的标识找到对应的资源」, not 「按标识找」.
+  - 「通过请求里的标识找到对应的资源」, not 「按标识找」.
 - Use concrete verbs. The single-character abstract verbs 「对」「收」「开」「走」「打」 carry no meaning alone.
   - 「两个服务报告的地址不一致」, not 「地址对不上」.
   - 「创建一条连接」, not 「开条连接」.
@@ -39,6 +39,20 @@ Write the way an experienced Chinese engineer explains the system to a colleague
   - 「客户端在超时后取消请求」, not 「你可以在超时后取消请求」.
 - Avoid translationese such as 「进行了一次……的处理」「被……所……」「对于……而言」「不是……而是」. Name the actor and the action.
 - Do not insert an aside with a dash mid-sentence. Split it into two sentences.
+
+## Prepositions
+
+Use a two-syllable preposition, or a frame that pairs the preposition with its localizer. A single-syllable 「在」「用」「按」「对」 does not carry an object on its own.
+
+- 「位于 `src/domains/yearly/yearlyItems.ts`」, not 「在 `src/domains/yearly/yearlyItems.ts`」.
+- 「图片放在 `public/products/` 里」, not 「图片放在 `public/products/`」 or 「图片在 `public/products/`」.
+- 「使用 `rem` 布局」, not 「用 `rem` 布局」.
+- 「按照路径设置缓存」, not 「按路径设置缓存」.
+
+Keep the localizer with the preposition: 「放在……里」「写在……里」「登记到……里」. Do not drop 「里」「上」「下」 after the object.
+
+- A sentence that only states where something is stops before saying what to do. Name the action instead.
+  - 「修改产品只用改 `src/domains/product/productItems.ts`」, not 「数据在 `src/domains/product/productItems.ts`」.
 
 ## Headings
 
